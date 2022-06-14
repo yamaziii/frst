@@ -1,0 +1,40 @@
+@import "../variable.scss";
+@import "./button.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  @media (max-width: $xxl) {
+    padding: 0 70px;
+  }
+  //   margin: 20px 50px 20px 50px;
+
+  &-logo {
+    margin-top: 43px;
+    margin-left: 50px;
+    margin-right: 797px;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+
+    .header-list {
+      margin-top: 46px;
+      margin-right: 70px;
+      display: flex;
+      gap: 40px;
+      &__item {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #ffffff;
+      }
+      &__home {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #118da8;
+      }
+    }
+  }
+}

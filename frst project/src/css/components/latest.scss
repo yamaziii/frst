@@ -1,0 +1,79 @@
+@import "../variable.scss";
+@import "./button.scss";
+
+.latest {
+  &-header {
+    display: flex;
+    align-items: center;
+    margin-top: 93px;
+    margin-left: 70px;
+    h2 {
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 79px;
+      letter-spacing: 2.88px;
+      color: #ffffff;
+    }
+    button {
+      margin-left: 609px;
+      background: #118da8;
+      border-radius: 6px;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 27px;
+      color: #ffffff;
+      width: 178px;
+      height: 51px;
+    }
+  }
+  &-main {
+    display: flex;
+    background: #000000;
+    border-radius: 32px;
+    margin-top: 66px;
+    margin-left: 70px;
+    margin-right: 70px;
+    &__img {
+      img {
+        margin-top: 40px;
+        margin-right: 53px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+      }
+    }
+    &__text {
+      span {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        color: #118da8;
+      }
+      h2 {
+        margin-top: 168px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: 2.56px;
+        color: #ffffff;
+      }
+      p {
+        margin-top: 28px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      button {
+        margin-top: 18px;
+        background: #118da8;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        width: 208px;
+        height: 51px;
+        color: #ffffff;
+      }
+    }
+  }
+}

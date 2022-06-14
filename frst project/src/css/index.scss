@@ -1,0 +1,18 @@
+@import "./normalize/normalize.scss";
+@import "./components/button.scss";
+// @import "components/profC";
+
+.bg {
+  background: #363f46;
+}
+// header
+@import "./components/header.scss";
+
+// level
+@import "./components/level.scss";
+
+// latest
+@import "./components/latest.scss";
+
+// email
+@import "./components/sendEmail.scss";
